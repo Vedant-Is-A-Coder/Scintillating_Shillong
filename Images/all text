@@ -1,0 +1,144 @@
+ <h1>
+                    <b>Why Shillong?</b>
+                </h1>
+                <br>
+                <p class="p2">
+                    <b>Shillong is a city filled with beauty in the North-Eastern Side of India. It is a part of the state of Meghalaya and is its capital. Its amazing scenery and deep culture define it. Its greenery is one to be desired and the way the people bond with nature is amazing. Even if it isn't a part of the list of the most beatiful cities, it is really unfair that this region is not visited a lot by tourists and that is why it is not on the top list. Our initiative is to spread tourism in the North-Eastern Parts of India as they are not explored a lot by tourists. So join us on our mission to spread tourism in the North-East by contacting us on the cotact us page. Bon Voyage!</b>
+                </p>
+
+
+
+                <body>
+        <header>
+            <div class="container">
+            
+            
+                <img src="Images/North-West Guide.png" alt="logo" class="logo" border="5">
+                
+                
+                <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Cities</a></li>
+                <li><a href="#">Contact Us</a></li>
+                </ul>
+                </nav>
+                
+            </div>
+        </header>
+
+
+
+        <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Scintillating Shillong!</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <style>
+        </style>
+    </head><div class>
+    <table>
+      <tr>
+        <td>
+            <p class="p2" align="left">
+              <b>Once in a while, It is good to ecape the busy metropolitans of india and get out into the wild. That is the kind of experience Shillong, the capital of the North-Eastern state Meghalaya, gives. A land rich in flora and fauna, it is the perfect place to spend your holidays and get away from the noise and polution of the industrialized cities. It is also a place with rich culture and hergitage and is a part of the 7 sisters in the North-East. One of the reasons why we chose this special place is that many tourists don't come there. We think that Shillong has the potential to be on of the best tourist attraction areas. So support us, in our journey to make Shillong the best for everyone.
+              </b>
+            </p>
+        </td>
+        <td>
+          <img src="Images/Airplane.jpg" class="airplane" id="airplane">
+          
+        </td>
+      </tr>
+    </table>
+  </div>
+
+   <header>
+        <div class="container1">
+        
+            
+            
+            <nav class="nav1">
+            <ul class="ul1">
+                <br>
+                <br>
+                <br>
+                <br>
+            <li align="center"><a href="index.html">Home</a></li>
+            <li align="center"><a href="#">Cities</a></li>
+            <li><a href="#" align="center">Contact Us</a></li>
+            </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+
+
+    .container1 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background-image: url('Images/North-West Guide.png');
+}
+
+nav {
+	float:right;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav ul {
+	padding: 50;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+	
+	position: relative;
+}
+
+nav ul > li > a {
+	color:rgb(255, 255, 255);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+	
+nav a:hover {
+	color: rgb(214, 241, 241);
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+}
+
+nav a:hover::before {
+	width: 100%;
+	transition: all ease-in-out 250ms;
+}
+
+
+
+Shillong's rich culture and heritage is much to be desired. The main tribe is the Khasi tribe that are mainly christians. A few of their best dishes are rice-beer, pork, boiled rice, etc.

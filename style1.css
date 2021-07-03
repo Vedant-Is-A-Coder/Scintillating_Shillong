@@ -1,0 +1,122 @@
+header {
+    height: 55vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('Images/North-West Guide.png');
+  }
+  
+  header h1 {
+    font-size: 100px;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    color:rgb(255, 255, 255);
+  }
+
+  .navbar_1 {
+    display: flex;
+    padding: 2rem;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+  }
+
+  .navbar_1 a {
+    margin: 13px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(24, 28, 37);
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  .navbar_1 a:hover {
+    margin: 13px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  .container2 {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+  }
+
+  .airplane {
+    width: 100%;
+    align-self: center;
+    border: 5px solid rgb(255, 255, 255);
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom: 2rem;
+    align-content: center;
+  }
+
+  .card h1 {
+    margin-bottom: 2rem;
+  }
+
+  .card airplane {
+    height: 400px;
+  }
+
+  .card > div {
+    padding: 2rem;
+  }  
+
+
+  @media(max-width: 700px) {
+    .card {
+      display: block;
+    }
+  }
+
+  .water-fall {
+      display: flex;
+      align-content: left;
+  }
+
+  .btn-1 {
+      width:100px;
+      height:50px;
+      background-color:  black;
+      border: 0px solid rgb(255, 255, 255);
+      border-radius: 2rem;
+      color: white;
+      font-size: 18px;
+  }
+  .btn-1:hover {
+    width:100px;
+    height:50px;
+    background-color:rgb(255, 126, 40);
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 2rem;
+    color: white;
+    font-size: 18px;
+}
+
+.head-1 {
+    color:rgb(255, 255, 255);
+    align-content: center;
+    align-self: center;
+}
+
+.h1-header-align {
+  align-self: center;
+  font-size:5rem;
+  margin: 1rem;
+}
